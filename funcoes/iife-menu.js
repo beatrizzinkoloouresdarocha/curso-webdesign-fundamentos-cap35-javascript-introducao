@@ -1,5 +1,5 @@
-
 function init(){
-    console.log("init menu")
+    let isValid =false
+    console.log("init menu",isValid)
 }
 init()
