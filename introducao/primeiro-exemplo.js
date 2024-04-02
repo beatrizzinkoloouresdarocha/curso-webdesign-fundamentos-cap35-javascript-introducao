@@ -7,6 +7,6 @@ console.log("qualquer coisa");
 
 // uma única linha
 
-alert(nome);
+console.log(nome);
 
 let outraVariavel = "Daniel"; 
