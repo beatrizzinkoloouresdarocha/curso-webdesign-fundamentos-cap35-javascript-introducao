@@ -1,9 +1,9 @@
-function somar(arr) {
-    let soma = 0;
-    for (let i = 0; i < arr.length; i++) {
-        soma += arr[i];
-    }
-    return soma;
+function somar(){
+    console.log(arguments)
+    let total =0;
+    for(let i =0;i<arguments.length;i++){
+        total +=arguments[i]
+}
+return total
 }
 
-console.log(somar([1, 2, 3])); // Saída: 6
