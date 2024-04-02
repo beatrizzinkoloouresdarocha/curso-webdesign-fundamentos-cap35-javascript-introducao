@@ -1,1 +1,4 @@
-let isValid = true
+let isValid = false
+function init(){
+    console.log("init menu")
+}
