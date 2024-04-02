@@ -1,5 +1,5 @@
-let isValid = true;
-
-function init() {
-    console.log("init modal");
+let isValid =true
+function init(){
+    console.log("init modal")
 }
+init()
