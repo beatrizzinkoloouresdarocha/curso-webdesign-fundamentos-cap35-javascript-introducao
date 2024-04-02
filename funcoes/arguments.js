@@ -1,5 +1,5 @@
-function somar(n1, n2){
-    return n1 +n2
+function somar(n1){
+    return n1 
 }
 
-console.log(somar(1,2,3))
+console.log(somar([1,2,3]))
