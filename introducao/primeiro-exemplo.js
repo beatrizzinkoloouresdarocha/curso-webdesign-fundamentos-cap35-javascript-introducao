@@ -10,3 +10,5 @@ console.log("qualquer coisa");
 console.log(nome);
 
 let outraVariavel = "Daniel"; 
+
+const $hasAttrubite= ""
