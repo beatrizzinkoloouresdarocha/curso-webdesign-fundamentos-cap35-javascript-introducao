@@ -9,7 +9,11 @@ Obesidade Grau III maior que 40 kg/m2
 */
 
 function calcularIMC(peso,altura){
-    
+    if(peso === undefined || altura === undefined){
+        throw Error("need two parameters: weigth and height")
+    }
+
+    return peso / (altura * altura)
 }
 
 let imc = calcularIMC(80,1.65)
