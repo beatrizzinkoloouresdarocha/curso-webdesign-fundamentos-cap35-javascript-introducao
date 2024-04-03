@@ -16,4 +16,7 @@ function calcularIMC(peso,altura){
     return peso / (altura * altura)
 }
 
+function classificaIMC(imc){
+    if(imc)
+}
 let imc = calcularIMC(80,1.65)
