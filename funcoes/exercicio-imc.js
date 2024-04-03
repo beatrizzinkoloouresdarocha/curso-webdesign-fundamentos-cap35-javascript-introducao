@@ -17,6 +17,8 @@ function calcularIMC(peso,altura){
 }
 
 function classificaIMC(imc){
-    if(imc)
+    if(imc < 16.9){
+
+    }else if(imc > 17 && imc <18.4)
 }
 let imc = calcularIMC(80,1.65)
