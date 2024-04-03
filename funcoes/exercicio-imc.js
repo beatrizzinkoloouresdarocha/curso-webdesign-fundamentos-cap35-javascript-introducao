@@ -8,4 +8,8 @@ Obesidade Grau II 35 a 40 kg/m2
 Obesidade Grau III maior que 40 kg/m2
 */
 
+function calcularIMC(peso,altura){
+    
+}
+
 let imc = calcularIMC(80,1.65)
